@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{http_host} ^geekin.xyz [NC]
+RewriteRule ^(.*)$ http://www.geekin.xyz/$1 [L,R=301]

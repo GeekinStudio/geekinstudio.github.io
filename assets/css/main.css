@@ -733,10 +733,13 @@
 			#main .avatar img {
 				display: block;
 				margin: 0 auto;
+				/*
 				border-radius: 100%;
 				box-shadow: 0 0 0 1.5em #ffffff;
+				*/
 			}
 
+			/*
 			#main .avatar:before {
 				content: '';
 				display: block;
@@ -748,6 +751,7 @@
 				z-index: -1;
 				background: #c8cccf;
 			}
+			*/
 
 		@media screen and (max-width: 480px) {
 
